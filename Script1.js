@@ -17,3 +17,18 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+function myMap()
+{
+  myCenter=new google.maps.LatLng(55.6738495,12.5661573);
+  var mapOptions= {
+    center:myCenter,
+    zoom:16, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}

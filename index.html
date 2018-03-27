@@ -37,15 +37,14 @@ h1,h2,h3,h4,h5,h6 {
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Kontakt</a>
 </div>
 
-<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<header class="bgimg w3-display-container w3-grayscale-min w3-hide-small" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Åbner kl.1730 </span>
+    <span class="w3-tag">Blahgade 12 2100 København S</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">Second2None</span>
+    <span class="w3-text-white" style="font-size:9vh">Second2None</span>
   </div>
 </header>
-
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
@@ -85,9 +84,9 @@ h1,h2,h3,h4,h5,h6 {
 			  <td>Rørt tartar af okseinderlår</td>
 			  <td>175 kr</td>
 		</tr>
-	 </table>
-	 	 <h4>HovedRet</h4>
-	 <table class="w3-table" style = "width = 100%">
+		<tr>
+	 	 <td colspan = "2"> <center><h4><br>HovedRet</center></h4></td>
+		 </tr>
 		<tr>
 			  <td>Chateau Briand (min. 2 gæster)</td>
 			  <td>395 kr.</td>
@@ -100,9 +99,9 @@ h1,h2,h3,h4,h5,h6 {
 			  <td>Oksemørbrad (kommer direkte fra køkkenet)</td>
 			  <td>395 kr</td>
 		</tr>
-	 </table>
-	 	 <h4>Dessert og ost</h4>
-	 <table class="w3-table" style = "width = 100%">
+		<tr>
+	 	 <td colspan = "2"> <center><h4><br>Dessert og ost</center></h4></td>
+		 </tr>
 		<tr>
 			  <td>Crepe suzette</td>
 			  <td>175 kr.</td>
@@ -116,11 +115,30 @@ h1,h2,h3,h4,h5,h6 {
 			  <td>175 kr.</td>
 		</tr>
 		<tr>
-			  <td>Ostebræt af 20 danske og europæiske. Inkl. Syrt og sødt samt sprødt<br>45 kr. pr. stk. og for 5stk.</td>
-
-			  <td>195 kr</td>
+			  <td>Ostebræt af 20 danske og europæiske. Inkl. Surt og sødt samt sprødt<br>pr. stk. <br>5stk.</td>
+			  <td><br>45 kr<br>195 kr</td>
 		</tr>
+		<tr>
+	 	 <td colspan = "2"> <center><h4><br>Menu inkl. Velkomst, Vinmenu, vand og kaffe</center></h4></td>
+		 </tr>
+		 <tr>
+			  <td>Gravad Laks</td>
+			  <td></td>
+		</tr>
+			<tr>
+			  <td>Oksemørbrad (kommer direkte fra køkkenet</td>
+			  <td>1250 kr.</td>
+		</tr>
+			<tr>
+			  <td>Hjemmelavede sorbet serveret I krammerhus</td>
+			  <td></td>
+		</tr>
+
 	 </table>
+	 <br>
+		<a href="https://www.erdetfredag.dk/" target="_blank" class="w3-button-bestil w3-round-xxlarge w3-xlarge w3-white w3-border-btn">Bestil Bord</a>
+	 <br>
+	 <br>
 		 </div>
     </div>
     
@@ -129,29 +147,32 @@ h1,h2,h3,h4,h5,h6 {
   <hr>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
+  <div class = "w3-container w3-padding-64">
+  <div class="w3-container w3-half" id="contact">
     <h1>Kontakt</h1><br>
 	<h2> Åbningstider</h2>
     <p><b>Mandag – søndag</b>
-17.30 – 00.00
-(Køkkenet lukker for bestilling kl. 21.30)</p>
+		17.30 – 00.00
+	(Køkkenet lukker for bestilling kl. 21.30)</p>
 	<h2> Vores Adresse</h2>
     <p>Nørre Farimagsgade 41
-1346 København K</p>
-<p><b>Email </b>hoest@cofoco.dk </br><b>Telefon</b> +45 89 93 84 09</<p>
-  </div>
-  
-<!-- End page content -->
-</div>
-
+	1346 København K</p>
+	<p><b>Email </b>hoest@cofoco.dk </br><b>Telefon</b> +45 89 93 84 09</<p>
+	</div>
+      <div id="googleMap" class="w3-grayscale w3-half" style="width:50%;height:400px;"></div>
+	  <br>
+	  </div>
+		<!-- End page content -->
+	</div>
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
   <p>&#169; 2018 - Second2None</br>
-  Demo Version V0.3 <br> 
+  Demo Version V1 <br> 
   Allan Simonsen & Ulrik Holm</p>
 </footer>
 <script src="Script1.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCE5EvpSDwAdAu68RMmDIxZ4_NRaRSz_KM&callback=myMap"></script>
 <script src="ScriptJQ.js"></script>
 </body>
 </html>
