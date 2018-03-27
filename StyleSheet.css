@@ -50,9 +50,10 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    min-height: 75%;
-	background-image: url("slide1");
+    min-height: 50%;
+	/*background-image: url("slide1.jpg");*/
 	background-repeat: no-repeat;
+	transition: background 4s linear;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
